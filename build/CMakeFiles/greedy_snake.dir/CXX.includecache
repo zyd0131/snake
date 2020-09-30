@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././inc/game.hpp
+unistd.h
+-
+iostream
+.././inc/iostream
+pthread.h
+.././inc/pthread.h
+termio.h
+-
+
+/home/zyd/tutorial/greedy_snake/src/game.cpp
+
+/home/zyd/tutorial/greedy_snake/src/game_.cpp
+game.hpp
+/home/zyd/tutorial/greedy_snake/src/game.hpp
+
+/home/zyd/tutorial/greedy_snake/src/main.cpp
+game.hpp
+/home/zyd/tutorial/greedy_snake/src/game.hpp
+
